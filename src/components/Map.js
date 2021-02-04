@@ -39,14 +39,19 @@ import Header from './Header';
     return (
         <div className="map">
             <Header/>
-            <GoogleMapReact
-                bootstrapURLKeys={{key: process.env.GOOGLE_MAP_KEY}}
-                defaultCenter={ center }
-                defaultZoom={ zoom }
-            >
-                {markers}
-            </GoogleMapReact>
+            <div className="map-container"> 
+                <GoogleMapReact
+                    bootstrapURLKeys={{key: process.env.REACT_APP_GOOGLE_MAP_KEY}}
+                    defaultCenter={ center }
+                    defaultZoom={ zoom }
+                >
+                    {markers}
+                </GoogleMapReact>
+            </div>
             {locationInfo && <LocationInfoBox info={locationInfo}/>}
+            <div className="footer">
+                Made with ❤️ by King Code
+            </div>
         </div>
     )
 }
