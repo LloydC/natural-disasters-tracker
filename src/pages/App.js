@@ -1,5 +1,6 @@
 import { useState, useEffect} from 'react';
-import Map from './components/Map'
+import Map from '../components/Map'
+import LoadingAnimation from '../components/LoadingAnimation'
 
 function App() {
   const [eventData, setEventData] = useState([]);
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {!loading ? <Map eventData={eventData} /> : <h1>Loading map...</h1>}
+      {!loading ? <Map eventData={eventData} /> : <LoadingAnimation/>}
     </div>
   );
 }
