@@ -3,6 +3,7 @@ import GoogleMapReact from 'google-map-react';
 import LocationMarker from './LocationMarker';
 import LocationInfoBox from './LocationInfoBox';
 import Header from './Header';
+import Footer from './Footer';
 
  const Map = ({ eventData, center, zoom }) => {
      const [locationInfo, setLocationInfo] = useState(null)
@@ -49,9 +50,7 @@ import Header from './Header';
                 </GoogleMapReact>
             </div>
             {locationInfo && <LocationInfoBox info={locationInfo}/>}
-            <div className="footer">
-                Made with ❤️ by King Code
-            </div>
+            <Footer/>
         </div>
     )
 }
