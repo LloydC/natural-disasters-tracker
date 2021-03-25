@@ -3,7 +3,7 @@
     {
       "timezone": "Africa/Abidjan",
       "schedule": [
-        "earlyFridays"
+        "before 9am on Friday"
       ],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest", "devDependencies"],
       "automerge": true,
