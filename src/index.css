@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  height: 10%;
+  height: 8%;
   background-color: #e0f0ea;
   color:  #3c2a4d;
   position: fixed;
@@ -74,10 +74,10 @@ body {
 .location-info {
   margin-top: 10%;
   width: 100%;
-  min-height: 40%;
+  height: 43%;
   font-size: 14px;
   padding: 20px;
-  background-color: #e0f0ea;
+  background-color: #574f7d;
 }
 
 .location-info ul {

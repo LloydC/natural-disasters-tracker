@@ -17,7 +17,7 @@ import cycloneIcon from '@iconify-icons/noto/cyclone';
                         key={event.id}
                         lat={event.geometries[0].coordinates[1]} 
                         lng={event.geometries[0].coordinates[0]}
-                        onClick={()=> setLocationInfo({title: event.title})}
+                        onClick={()=> setLocationInfo({title: event.title, type: 'Wildfire'})}
                         type={'wildfire'}
                         />
          }
@@ -26,7 +26,7 @@ import cycloneIcon from '@iconify-icons/noto/cyclone';
                        key={event.id}
                        lat={event.geometries[0].coordinates[1]} 
                        lng={event.geometries[0].coordinates[0]}
-                       onClick={()=> setLocationInfo({title: event.title})}
+                       onClick={()=> setLocationInfo({title: event.title, type: 'Eruption'})}
                        type={'eruption'}
                        />
         }
@@ -35,7 +35,7 @@ import cycloneIcon from '@iconify-icons/noto/cyclone';
                        key={event.id}
                        lat={event.geometries[0].coordinates[1]} 
                        lng={event.geometries[0].coordinates[0]}
-                       onClick={()=> setLocationInfo({title: event.title})}
+                       onClick={()=> setLocationInfo({title: event.title, type: 'Cyclone'})}
                        type={'cyclone'}
                        />
         }
@@ -53,7 +53,7 @@ import cycloneIcon from '@iconify-icons/noto/cyclone';
                     {markers}
                 </GoogleMapReact>
                 <div className="info-container">
-                    <div>
+                    <div style={{height: '43%'}}>
                         <div style={{textAlign: "center"}}>  
                             <h2>Welcome!</h2>
                             <p>You can click on any of the disasters icons that appears on the map to get more information about it ;)</p>
