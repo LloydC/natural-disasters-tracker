@@ -1902,10 +1902,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify-icons/noto@1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@iconify-icons/noto/-/noto-1.1.3.tgz#918ca742fdc261dcc27ef309e2bf02d01fc55ae6"
-  integrity sha512-MauM15ITGdbgvXOT55shFLxNMJAU5A+JbYgMyLyqt1GkCfrFHJkk5bdakxpXL3ivezYeC5IK9FD/RHiC2LDqCA==
+"@iconify-icons/noto@1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/noto/-/noto-1.1.4.tgz#7442dfef47fe1435b0d6b3dc7c824f9d877ba484"
+  integrity sha512-WUwV0UY4GMl5dmf2aUx3Ee+3ObHeR0il9S2J4+BsLVwGd3BPuiQL/N94GrvRq7t2I8IB2McgBQmpQ/wpOYHMLA==
 
 "@iconify/icons-mdi@1.1.37":
   version "1.1.37"
