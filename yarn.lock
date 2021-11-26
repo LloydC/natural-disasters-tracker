@@ -1907,10 +1907,10 @@
   resolved "https://registry.yarnpkg.com/@iconify-icons/noto/-/noto-1.1.4.tgz#7442dfef47fe1435b0d6b3dc7c824f9d877ba484"
   integrity sha512-WUwV0UY4GMl5dmf2aUx3Ee+3ObHeR0il9S2J4+BsLVwGd3BPuiQL/N94GrvRq7t2I8IB2McgBQmpQ/wpOYHMLA==
 
-"@iconify/icons-mdi@1.1.37":
-  version "1.1.37"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.37.tgz#018f9962837fa405b5a1e94e08cbc503e87e6264"
-  integrity sha512-dgXFbRR7rOo+jfjbBYfIx+Q0UrU/fx8qsm0lURQ08ani4le07VR/epwN/MhAZXREw8Xx9bFWNwXAziLAaN1qkA==
+"@iconify/icons-mdi@1.1.41":
+  version "1.1.41"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.41.tgz#464577f9c7c7a5f82d2f1ec18bb989c2a22f8d54"
+  integrity sha512-sTOiuqdBkOc+v6/aeWEYQKFcR4dgwaebm8/MRgxoC1XOsflxJLQIeUn2tE+HVynzNDo65rx3r7LZhgmvnQeP9Q==
 
 "@iconify/react@1.1.4":
   version "1.1.4"
