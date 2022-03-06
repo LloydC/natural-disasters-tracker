@@ -2110,10 +2110,12 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@iconify-icons/noto@1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@iconify-icons/noto/-/noto-1.1.5.tgz#fd45fefaf4f39294dc18c0aa9b3d07d5be11d7d0"
-  integrity sha512-d7HLERLcCLv866cClu+obxWxC69mhKAaDc/fBVFX6A6w7xhV854comJ/7/75PbFbgoTh9bw6RJWFIVP8v2sY2g==
+"@iconify-icons/noto@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/noto/-/noto-1.2.2.tgz#183cfaab452cdbc0cc73a7638387e23ef51f68df"
+  integrity sha512-k6s36TXiyZoNlHIqlX+0CLEBgxGO44Sf/szL6AmTi+7k9Yg8fHwvIjbe3yHhU6C06Lol9bPG0b8PykRwZ/cgEQ==
+  dependencies:
+    "@iconify/types" "^1.0.12"
 
 "@iconify/icons-mdi@1.2.1":
   version "1.2.1"
