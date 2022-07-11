@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@iconify-icons/noto": "1.2.3",
+    "@iconify-icons/noto": "1.2.4",
     "@iconify/icons-mdi": "1.2.20",
     "@iconify/react": "3.2.2",
     "@testing-library/jest-dom": "5.16.4",
