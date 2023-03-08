@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      {!loading ? <Map eventData={eventData} /> : <LoadingAnimation/>}
+      {loading ? <LoadingAnimation/> : <Map eventData={eventData} />}
     </div>
   );
 }
