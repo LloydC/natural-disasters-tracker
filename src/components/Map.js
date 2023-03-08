@@ -12,29 +12,29 @@ import cycloneIcon from '@iconify-icons/noto/cyclone';
  const Map = ({ eventData, center, zoom }) => {
      const [locationInfo, setLocationInfo] = useState(null)
      const markers = eventData.map(event => {
-         if(event.categories[0].id === 8){
+         if(event.categories[0].id === "wildfires"){
              return <LocationMarker 
                         key={event.id}
-                        lat={event.geometries[0].coordinates[1]} 
-                        lng={event.geometries[0].coordinates[0]}
+                        lat={event.geometry[0].coordinates[1]} 
+                        lng={event.geometry[0].coordinates[0]}
                         onClick={()=> setLocationInfo({title: event.title, type: 'Wildfire'})}
                         type={'wildfire'}
                         />
          }
-         else if(event.categories[0].id === 12 && event.geometries[0].coordinates.length === 2){
+         else if(event.categories[0].id === "volcanoes" && event.geometry[0].coordinates.length === 2){
             return <LocationMarker 
                        key={event.id}
-                       lat={event.geometries[0].coordinates[1]} 
-                       lng={event.geometries[0].coordinates[0]}
+                       lat={event.geometry[0].coordinates[1]} 
+                       lng={event.geometry[0].coordinates[0]}
                        onClick={()=> setLocationInfo({title: event.title, type: 'Eruption'})}
                        type={'eruption'}
                        />
         }
-        else if(event.categories[0].id === 10 && event.geometries[0].coordinates.length === 2){
+        else if(event.categories[0].id === "severeStorms" && event.geometry[0].coordinates.length === 2){
             return <LocationMarker 
                        key={event.id}
-                       lat={event.geometries[0].coordinates[1]} 
-                       lng={event.geometries[0].coordinates[0]}
+                       lat={event.geometry[0].coordinates[1]} 
+                       lng={event.geometry[0].coordinates[0]}
                        onClick={()=> setLocationInfo({title: event.title, type: 'Cyclone'})}
                        type={'cyclone'}
                        />
