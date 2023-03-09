@@ -8,6 +8,6 @@
         "Cyclones"
     ],
     "loadingAnimation": "Chargement de page en cours...",
-    "locationInfoBox": ["Information sur les desastres", "Titre","Evenement"],
+    "locationInfoBox": ["Details du desastre", "Titre","Evenement"],
     "footer": "Construit avec 💚 par Lloyd Chambrier (utilisation du NASA API)"
 }
