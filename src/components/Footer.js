@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { LanguageContext } from '../context/language.context';
 
 const Footer = () => {
+    const { dictionary } = useContext(LanguageContext);
     return (
         <div className="footer">
-            <span>Made with <span style={{margin: '0 10px'}}>&#x1F49A;</span> by Lloyd Chambrier (Powered By NASA API)</span>
+            <span>{dictionary.footer}</span>
         </div>
     )
 }

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import LanguageSelector from './LanguageSelector';
+import { LanguageContext } from '../context/language.context';
 
 const Header = () => {
+    const { dictionary } = useContext(LanguageContext);
+
     return (
         <header className="header">
-            <h1>Natural Disasters Map Tracker</h1>
+            <span></span>
+            <h1>{dictionary.header}</h1>
+            <LanguageSelector />
         </header>
     )
 }

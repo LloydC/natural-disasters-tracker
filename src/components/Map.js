@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import GoogleMapReact from 'google-map-react';
 import LocationMarker from './LocationMarker';
 import LocationInfoBox from './LocationInfoBox';
@@ -8,9 +8,12 @@ import { Icon } from '@iconify/react';
 import wildfireIcon from '@iconify/icons-mdi/fire-alert'
 import volcanoIcon from '@iconify-icons/noto/volcano';
 import cycloneIcon from '@iconify-icons/noto/cyclone';
+import { LanguageContext } from '../context/language.context';
 
  const Map = ({ eventData, center, zoom }) => {
      const [locationInfo, setLocationInfo] = useState(null)
+     const { dictionary } = useContext(LanguageContext);
+
      const markers = eventData.map(event => {
          if(event.categories[0].id === "wildfires"){
              return <LocationMarker 
@@ -55,14 +58,14 @@ import cycloneIcon from '@iconify-icons/noto/cyclone';
                 <div className="info-container">
                     <div style={{height: '43%'}}>
                         <div style={{textAlign: "center"}}>  
-                            <h2>Welcome!</h2>
-                            <p>You can click on any of the disasters icons that appears on the map to get more information about it ;)</p>
+                            <h2>{dictionary.infoContainer[0]}</h2>
+                            <p>{dictionary.infoContainer[1]}</p>
                         </div>
                         <br/>
                         <div style={{ display: "flex", flexDirection: "column"}}>
-                            <span><Icon icon={volcanoIcon} className="location-icon"/> Volcanoes</span>
-                            <span><Icon icon={wildfireIcon} className="location-icon"/> Wildfire</span>
-                            <span><Icon icon={cycloneIcon} className="location-icon"/> Cyclone</span>
+                            <span><Icon icon={volcanoIcon} className="location-icon"/>{dictionary.infoContainer[2]}</span>
+                            <span><Icon icon={wildfireIcon} className="location-icon"/>{dictionary.infoContainer[3]}</span>
+                            <span><Icon icon={cycloneIcon} className="location-icon"/>{dictionary.infoContainer[4]}</span>
                         </div> 
                     </div>
                     
