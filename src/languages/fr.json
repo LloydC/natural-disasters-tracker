@@ -1,5 +1,5 @@
 {
-    "header": "National Disaster Map Tracker",
+    "header": "Traceur de desastres naturels",
     "infoContainer": [
         "Bienvenue", 
         "Appuyez sur l'icone d'un desastre afin d'obtenir plus d'information dessus",
@@ -7,6 +7,7 @@
         "Incendies",
         "Cyclones"
     ],
+    "loadingAnimation": "Chargement de page en cours...",
     "locationInfoBox": ["Information sur les desastres", "Titre","Evenement"],
     "footer": "Construit avec 💚 par Lloyd Chambrier (utilisation du NASA API)"
 }

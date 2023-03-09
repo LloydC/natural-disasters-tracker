@@ -7,6 +7,7 @@
                         "Wildfires",
                         "Cyclones"
                     ],
+    "loadingAnimation": "Loading...",
     "locationInfoBox": ["Disaster Information", "Title","Event Type"],
     "footer": "Made with 💚 by Lloyd Chambrier (Powered By NASA API)"
 }
