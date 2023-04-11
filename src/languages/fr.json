@@ -1,9 +1,9 @@
 {
     "header": "Traceur de desastres naturels",
     "infoContainer": [
-        "Bienvenue", 
-        "Appuyez sur l'icone d'un desastre afin d'obtenir plus d'information dessus",
-        "Volcans",
+        "Bienvenue sur le traceur de desastres naturels", 
+        "Cette application utilise l'API NASA qui enregistre des catastrophes naturelles partout dans le monde. Appuyez sur l'icone d'un desastre afin d'obtenir plus d'information dessus",
+        "Eruptions Volcaniques",
         "Incendies",
         "Cyclones"
     ],

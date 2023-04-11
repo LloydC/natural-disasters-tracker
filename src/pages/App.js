@@ -10,6 +10,10 @@ function App() {
     const fetchEvents = async () => {
       const res = await fetch('https://eonet.gsfc.nasa.gov/api/v3/events');
       const { events } = await res.json();
+
+      const filterByDate = events.map(event => event.geometry[0].date)
+      console.log(filterByDate);
+      
       setEventData(events);
       setLoading(false);
     }

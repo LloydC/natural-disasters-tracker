@@ -60,9 +60,9 @@ body {
 }
 
 .info-container{
- margin-top: 4%;
- display:flex;
- flex-direction: column;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
 }
 
 .location-icon {

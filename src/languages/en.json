@@ -1,8 +1,8 @@
 {
     "header": "National Disaster Map Tracker",
     "infoContainer": [
-                        "Welcome", 
-                        "You can click on any of the disasters icons that appears on the map to get more information about it ;)",
+                        "Welcome to National Disaster Map Tracker", 
+                        "This app makes use of the NASA API to collect information about natural disasters around the world. You can click on any of the disasters icons that appears on the map to get more information about it ;)",
                         "Volcanoes",
                         "Wildfires",
                         "Cyclones"
