@@ -79,8 +79,8 @@ import { LanguageContext } from '../context/language.context';
 
 Map.defaultProps = {
     center: {
-        lat: 0.4162,
-        lng: 9.4673
+        lat: 42.71,
+        lng: 12.85
     },
     zoom: 3
 }
