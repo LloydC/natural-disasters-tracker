@@ -6,7 +6,7 @@
     "@iconify-icons/noto": "1.2.10",
     "@iconify/icons-mdi": "1.2.48",
     "@iconify/react": "3.2.2",
-    "@testing-library/jest-dom": "5.17.0",
+    "@testing-library/jest-dom": "6.4.2",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.5.2",
     "dotenv": "16.4.1",
