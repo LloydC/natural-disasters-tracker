@@ -5,7 +5,7 @@
   "dependencies": {
     "@iconify-icons/noto": "1.2.10",
     "@iconify/icons-mdi": "1.2.48",
-    "@iconify/react": "3.2.2",
+    "@iconify/react": "6.0.0",
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.6.1",
