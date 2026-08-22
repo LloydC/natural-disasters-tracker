@@ -1144,10 +1144,10 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@iconify-icons/noto@1.2.10":
-  version "1.2.10"
-  resolved "https://registry.npmjs.org/@iconify-icons/noto/-/noto-1.2.10.tgz"
-  integrity sha512-HSI0aTYq3HNxAzNS/uKx6xg9zzVDdpodegwU2yMa+xCL1mIvUUnHgVk4j3RJrIutcFEPICg49gLCol5aH6Siog==
+"@iconify-icons/noto@1.2.11":
+  version "1.2.11"
+  resolved "https://registry.npmjs.org/@iconify-icons/noto/-/noto-1.2.11.tgz"
+  integrity sha512-HGXkwx+TG5BCmbeHsg2uifIypL56QndGSNdDP/5to3nV0VJfcWgU/E8j9xSjua6R3pJU6n1vEQCJhnN4wyKOMg==
   dependencies:
     "@iconify/types" "*"
 
